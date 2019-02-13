@@ -19,7 +19,7 @@ silent! colorscheme onehalfdark
 "makes vim transparen
 hi Normal guibg=NONE ctermbg=NONE
 "This turns on relative numbers, your location=0 
-set relativenumber
+set number relativenumber 
 
 "This sets that bar on the right side of the screen
 set colorcolumn=100

@@ -46,8 +46,11 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-"format files (remove ^M)
-"set fileformats=dos
+"format files for windows
+"set fileformat=dos
+
+"format files for unix
+set fileformat=unix
 
 "these three lines make tabs equal to four spaces
 set tabstop=4

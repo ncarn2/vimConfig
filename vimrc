@@ -47,7 +47,7 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 "format files (remove ^M)
-set fileformats=dos
+"set fileformats=dos
 
 "these three lines make tabs equal to four spaces
 set tabstop=4

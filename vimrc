@@ -1,6 +1,7 @@
 "we have to run the PluginInstall and qall now :(
 "vim +PluginInstall +qall
 
+set encoding=utf-8
 set nocompatible
 filetype off
    
@@ -21,15 +22,17 @@ Plugin 'tpope/vim-fugitive'
 " Plugin 'L9'
 " Git plugin not hosted on GitHub
 Plugin 'git://git.wincent.com/command-t.git'
+Plugin 'tpope/vim-surround'
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Install L9 and avoid a Naming conflict if you've already installed a
 " different version somewhere else.
 " Plugin 'ascenator/L9', {'name': 'newL9'}
-Plugin 'git://github.com/Valloric/YouCompleteMe.git'
+Plugin 'airblade/vim-gitgutter'
 
 " All of your Plugins must be added before the following line
+let g:ycm_use_clangd = "Never"
 call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
@@ -44,8 +47,6 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-"adds completion to txt file
-let g:ycm_filetype_blacklist={'text':0}
 "format files for windows
 "set fileformat=dos
 
@@ -58,6 +59,10 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 "
+"Changing how fast vim updates time, default is 4 seconds
+set updatetime=100
+"Enables GitGutter by default
+let g:gitgutter_enabled = 1
 "Disables the F1 key or the help key
 :nmap <F1> <nop>
 :imap <F1> <nop>

@@ -9,3 +9,7 @@ If you want to use this vim configuration, you will need to install `git` and [v
 ```
 $git clone https://github.com/ncarn2/vimconfig.git ~/.vim
 ```	
+2. Install the plugins
+```
+vim +PluginInstall +qall
+```

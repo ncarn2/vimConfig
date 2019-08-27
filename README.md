@@ -7,8 +7,7 @@ If you want to use this vim configuration, you will need to install `git` and [v
 
 1. Clone this directory to your home directory.
 ```
-$git clone https://github.com/ncarn2/vimconfig.git ~/.vim
-<<<<<<< HEAD
+git clone https://github.com/ncarn2/vimconfig.git ~/.vim
 ```
 2. Move the file to .vim
 ```

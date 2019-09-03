@@ -12,6 +12,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-surround'
 Plug 'Shougo/deoplete.nvim'
 Plug 'w0rp/ale'
+Plug 'derekwyatt/vim-scala'
 "Prettier
 "Plug 'prettier/vim-prettier'
 "Plug 'racer-rust/vim-racer'

@@ -36,9 +36,9 @@ tnoremap <Esc> <C-\><C-n>
 set fileformat=unix
 
 "these three lines make tabs equal to four spaces
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=8
+set softtabstop=8
+set shiftwidth=8
 set expandtab
 "
 "Changing how fast vim updates time, default is 4 seconds

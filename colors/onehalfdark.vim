@@ -1,4 +1,3 @@
-
 " ==============================================================================
 "   Name:        One Half Dark
 "   Author:      Son A. Pham <sp@sonpham.me>
@@ -18,6 +17,7 @@ let g:colors_name="onehalfdark"
 let colors_name="onehalfdark"
 
 
+let s:pink        = { "gui": "#1e1e1e", "cterm": "159" }
 let s:black       = { "gui": "#282c34", "cterm": "236" }
 let s:red         = { "gui": "#e06c75", "cterm": "168" }
 let s:green       = { "gui": "#98c379", "cterm": "114" }
@@ -120,7 +120,7 @@ call s:h("WildMenu", s:fg, "", "")
 
 
 " Syntax colors {
-call s:h("Comment", s:comment_fg, "", "")
+call s:h("Comment", s:pink, "", "")
 call s:h("Constant", s:cyan, "", "")
 call s:h("String", s:green, "", "")
 call s:h("Character", s:green, "", "")

@@ -1,4 +1,4 @@
-# Vim Config
+# NeoVim Config
 
 ## This is broken while I switch to neovim and a dotfile manager
 ## Introduction 
@@ -8,7 +8,7 @@ If you want to use this vim configuration, you will need to install `git` and [v
 
 1. Clone this directory to your home directory.
 ```
-git clone https://github.com/ncarn2/vimconfig.git ~/.vim
+git clone git@github.com:ncarn2/vimConfig.git ~/.vim
 ```
 2. Move the file to .vim
 ```
@@ -17,6 +17,6 @@ mv vimconfig ~/.vim
 
 3. Install the plugins with vundle
 ```
-vim +PluginInstall 
+vim +PlugInstall 
 ```
 
